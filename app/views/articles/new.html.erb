@@ -1,0 +1,20 @@
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Title</label>
+    <input type="etext" class="form-control" id="titleinput" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Content</label>
+    <div style= 'width: 582px; height: 200px'>
+    <textarea class="form-control" id="contenttextarea" rows="3"></textarea>
+  </div>
+  </div>
+  <br/>
+  <br/>
+
+  <button type="submit" class="btn btn-primary mb-2">Create Article</button>
+  <br/>
+  <div class="navlinks">
+    <%= link_to "Back", articles_path %>
+  </div>
+</form>
